@@ -973,7 +973,10 @@
             opacity: 1;
             transform: translateY(0);
         }
-    </style>
+            .hero-deck { display: inline-flex; align-items: center; gap: 10px; margin-top: 28px; font-size: 0.85rem; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #FFBA08; text-decoration: none; border-top: 2px solid rgba(255,186,8,0.5); padding-top: 14px; }
+        .hero-deck .arrow { transition: transform 0.3s ease; }
+        .hero-deck:hover .arrow { transform: translateX(6px); }
+</style>
 </head>
 <body>
     <div class="honeycomb-bg"></div>
@@ -1012,13 +1015,14 @@
             <p class="quote-text">The purpose of a beehive is not to make honey. Honey is the byproduct of a healthy hive.</p>
             <p class="quote-author">Seth Godin, The Song of Significance</p>
         </div>
+        <a class="hero-deck" href="overview/">Open the Overview Deck <span class="arrow">&rarr;</span></a>
     </header>
     <!-- Honey Definition Section -->
     <section class="honey-definition">
         <span class="section-label reveal">The Meaning</span>
         <h2 class="section-title reveal" style="text-align: center;">What is the Honey?</h2>
 
-        <p class="honey-tagline reveal"><em>Honey is the sweetness we create</em> — for our customers, our teams, ourselves, and our future.</p>
+        <p class="honey-tagline reveal"><em>Honey is the sweetness we create</em> for our customers, our teams, ourselves, and our future.</p>
 
         <div class="honey-flows">
             <div class="honey-flow-item reveal">
@@ -1026,12 +1030,12 @@
                 <p class="honey-flow-text">Sweet experiences. The "wow" moments. The relief when something just works. The stories they tell their neighbors.</p>
             </div>
             <div class="honey-flow-item reveal">
-                <h3 class="honey-flow-title">To the Team</h3>
-                <p class="honey-flow-text">Fulfillment. Pride in craft. The feeling of being part of something meaningful. "I helped that family."</p>
-            </div>
-            <div class="honey-flow-item reveal">
                 <h3 class="honey-flow-title">To Ourselves</h3>
                 <p class="honey-flow-text">Growth. Purpose. The satisfaction of doing work that matters. Becoming the person we're meant to be.</p>
+            </div>
+            <div class="honey-flow-item reveal">
+                <h3 class="honey-flow-title">To the Team</h3>
+                <p class="honey-flow-text">Community. The camaraderie of doing hard work together, on purpose. The feeling of being part of something bigger than yourself.</p>
             </div>
             <div class="honey-flow-item reveal">
                 <h3 class="honey-flow-title">To the Business</h3>
@@ -1100,17 +1104,17 @@
             </div>
             <div class="roadmap-item reveal">
                 <div class="roadmap-node"></div>
-                <div class="roadmap-content">
+                <a class="roadmap-content" href="https://audia-consulting.github.io/abc_training_Q3_2026/">
                     <span class="roadmap-badge">Q3 Session</span>
                     <h3 class="roadmap-title">The Sweetness We Leave Behind</h3>
-                    <p class="roadmap-text">Legacy and advocacy. How do we turn satisfied customers into advocates who tell our story? Empowerment to say yes, treating every individual with dignity, and recovering gracefully when things go wrong. This is about the aftertaste — what lingers after we leave.</p>
-                    <span class="roadmap-soon">Coming Q3</span>
-                </div>
+                    <p class="roadmap-text">Legacy and advocacy. How do we turn satisfied customers into advocates who tell our story? Empowerment to say yes, treating every individual with dignity, and recovering gracefully when things go wrong. This is about the aftertaste: what lingers after we leave.</p>
+                    <span class="roadmap-open">Open Q3 Decks <span class="arrow">&rarr;</span></span>
+                </a>
             </div>
             <div class="roadmap-item capstone reveal">
                 <div class="roadmap-node"></div>
                 <div class="roadmap-content">
-                    <span class="roadmap-badge">Q4 Capstone — Marble Falls</span>
+                    <span class="roadmap-badge">Q4 Capstone · Marble Falls</span>
                     <h3 class="roadmap-title">The Honey Harvest</h3>
                     <p class="roadmap-text">The Annual Manager's Training in Marble Falls, TX. Three sessions across Tuesday and Wednesday bringing Austin, Dallas, and Houston together under one roof. Content that builds on the year's foundation, cross-market collaboration on best practices, and storytelling sessions where teams share what they implemented and what worked. This is where we harvest the stories that define who we are.</p>
                     <span class="roadmap-soon">Coming Q4</span>
@@ -1130,7 +1134,7 @@
             <div class="discussion-questions">
                 <div class="question-card reveal">
                     <p class="question-number">Question 1</p>
-                    <p class="question-text">What do our managers struggle with most — internal handoffs or external delivery?</p>
+                    <p class="question-text">What do our managers struggle with most: internal handoffs or external delivery?</p>
                     <p class="question-context">Your answer shaped how much weight Q1 carries versus Q2 and Q3.</p>
                 </div>
 
@@ -1148,7 +1152,7 @@
 
                 <div class="question-card reveal">
                     <p class="question-number">Question 4</p>
-                    <p class="question-text">Are there any specific books, frameworks, videos, or "hooks" you've used in the past that your teams have loved — beyond what we've introduced in previous trainings?</p>
+                    <p class="question-text">Are there any specific books, frameworks, videos, or "hooks" you've used in the past that your teams have loved, beyond what we've introduced in previous trainings?</p>
                     <p class="question-context">Each quarter is anchored to the resources that resonate most with your culture.</p>
                 </div>
             </div>
